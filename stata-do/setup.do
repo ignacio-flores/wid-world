@@ -36,6 +36,11 @@ if substr("`c(pwd)'",1,25) == "/Users/manuelestebanarias" {
     global r_dir "/usr/local/bin/R"
 }
 
+if strpos("`c(pwd)'", "iflores") {
+    global wid_dir "`c(pwd)'/Dropbox/wid/W2ID"
+    global project_dir "`c(pwd)'/Documents/GitHub/wid-world"
+}
+
 // WID folder directory
 *global wid_dir "/Users/thomasblanchet/Dropbox/W2ID" // Thomas Blanchet
 *global wid_dir "C:/Users/Amory/Dropbox/W2ID" // Amory Gethin
