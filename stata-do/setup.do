@@ -171,7 +171,7 @@ dis $corecountries
 // Graphical theme
 // -------------------------------------------------------------------------- //
 
-set scheme stcolor_alt
+cap set scheme stcolor_alt
 grstyle init
 grstyle color background white
 grstyle anglestyle vertical_tick horizontal
